@@ -35,6 +35,11 @@ Each board has a **goal** that every step works toward. Seed it with a thought, 
   - **Local:** Ollama, MLX (`mlx_lm.server`), LM Studio, or any OpenAI-compatible URL.
 - **Swedish and English** interface. Generated text follows the language of its seed.
 
+## Evaluation
+
+- [Model specialization and evaluation proposal](docs/model-specialization-evaluation.md) — role-by-role benchmark plan.
+- [Reusable evaluation skill](.agents/skills/real-work-model-evaluation/SKILL.md) — evaluate real-work examples, held-out cases, candidate models, and output checks.
+
 ## Run
 
 Needs Node 25 or newer, which runs TypeScript directly. There is no build step.
